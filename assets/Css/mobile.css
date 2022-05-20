@@ -1,0 +1,196 @@
+@media (max-width: 768px) {
+
+/* Menu despegable     */
+.mainheader{
+    background: linear-gradient(rgb(36, 38, 53), rgba(97, 74, 136, 0.11));
+    width: 100%;
+    position: sticky;
+    top: 0;
+    border-radius: 8px;
+}
+
+.container_menu{
+  position: absolute;
+  background: rgb(54, 49, 66);
+  width: 100%;
+}
+.navbar a, .icon_menu{
+    color:#dddbd8;
+    padding: 5px 10px;
+    display:inline-block;
+
+}
+.logo{
+    visibility: hidden;
+}
+.icon_right i{
+    visibility: visible;
+}
+a{
+    text-decoration: none;
+    color:#dddbd8;
+    
+}
+
+ul{
+    list-style: none;  
+    text-align: center;
+    
+
+}
+li{
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.icon_right{
+    text-align: right;
+}
+.navbar{
+    display: none;
+    background: #21275f; 
+}
+
+/* reusable classes */
+.display-1{
+ font-size: 25px;
+}
+/* mainheader */
+.mainheader{
+    height:100%;
+}
+
+/* navbar */
+.navbar .logo{
+    float: none;
+    text-align: center;
+}
+
+.navbar ul li a{
+    padding: 10px;
+    
+}
+
+/* wraper */
+
+.wraper{
+    padding: 0;
+    text-align: center;
+    margin: auto;
+}
+.wraper-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.wraper-row div{
+    width: 70%;
+}
+
+.wraper-row-img1 img{
+    width: 80%;
+    height: 90%;
+    align-items: center;
+}
+/* iconos */
+.container_a{
+    position: relative;
+    top: -80px;
+    left: 1px;
+}
+.icons{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+.icons span{
+    background-color:#474a61;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 3.2;
+
+}
+.boton{
+    margin:auto;
+    width: 90%;
+}
+.btn-round{
+    width: 90%;
+}
+/* skills */
+.skills {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.skills p{
+    width: 100%;
+}
+.skills-row{
+    display: flex;
+} 
+/* portfolio */
+
+.portfolio {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.portfolio p{
+    width: 100%;
+}
+.portfolio-row{
+    display: flex;
+} 
+
+/* Aboutme */
+.Aboutme{
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.Aboutme h2{
+    padding-bottom: 10px;
+}
+
+.aboutme p{
+    padding-bottom: 5px;
+}
+
+/* Contact */
+
+.contact{
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.contact p{
+    width: 100%;
+}
+
+.contact-row{
+    flex-wrap: wrap;
+    padding: 0px;
+}
+
+.contact-row-img {
+    width: 100%;
+}
+
+.contact-row-img img{
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.contact-row-form {
+    width: 100%;
+    padding: 10px;
+
+}
+}

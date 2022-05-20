@@ -1,0 +1,308 @@
+
+/* reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* main style */
+html,
+body{
+  font-family: 'Montserrat', sans-serif; 
+  color: #b8b3af;
+  background:radial-gradient(#000000, #242635,#242635 );
+}
+
+h1{
+    font-size: 24px;
+    color: #13999ed8;
+}
+h2{
+    font-size:24px;
+    font-weight: 500;
+    color: #13999ed8;
+}
+h4{
+    font-size: 14px;
+    color: #13999ed8;
+}
+
+p{
+    font-size: 16px;
+    margin: 10px 0;
+    line-height: 20px;
+    font-weight: 200;
+}
+
+a{
+    text-decoration: none;
+}
+.icon_right i{
+    visibility: hidden;
+}
+
+/* reusable classes */
+.container{
+    margin:auto;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.large{
+    font-size: 20px;
+}
+
+.txt-aqua{
+    color: #13999ed8;
+}
+
+.display-1{
+ font-size: 40px;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 12px;
+    padding: 8px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.btn-round{
+    border-radius:0 8px;
+}
+
+.btn-dark {
+    background-color: #d1ceca;
+    color:#13999ed8;
+    border: 1px solid #d1ceca
+}
+
+.btn-dark:hover{
+    background-color:#b8b3af ;
+    color: #13999ed8;
+}
+
+form label{
+    display:inline-block;
+    margin-bottom: 6px;
+    color:#13999ed8
+}
+
+form .form-control{
+    display: block;
+    width: 100%;
+    padding: 4px 8px;
+    font-size: 12px;
+    line-height: 1.5;
+    color:#0e0d0d;
+    border: 1px solid rgb(161, 161, 161);
+    border-radius: 4px;
+}
+
+/* mainheader */
+.mainheader{
+    background: radial-gradient(at 10% 10px, #000000, #242635,#242635);
+    height: 100%;
+}
+
+/* navbar */
+.navbar{
+    color:#fff;
+    overflow:auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar a{
+    color:#b8b3af;
+
+}
+
+.navbar .logo{
+    float: left;
+    padding-top: 16px;
+    font-size: 25px;
+}
+
+.navbar ul{
+    list-style: none;
+    float: right;
+}
+
+.navbar ul li{
+    float: left;
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+.navbar ul li a{
+    display: block;
+    padding: 25px;
+    text-align: center;
+}
+
+.navbar ul li a:hover{
+    color:#dddbd8
+}
+
+/* wraper */
+
+.wraper-row{
+    display:flex;
+    padding: 20px 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.wraper-row div{
+    width: 40%;
+}
+
+.wraper-row-img1 img{
+    width: 300px;
+    height: 300px;
+    
+    
+}
+
+.wraper-row-title p.large{
+    padding-bottom: 15px;
+}
+/* iconos */
+.container_a{
+    position: relative;
+    right: -650px;
+    bottom:40px;
+}
+.icons{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+.icons span{
+    background-color:#474a61;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 3.2;
+}
+
+.boton{
+    margin:auto;
+    width: 90%;
+    text-align: center;
+}
+.btn-round{
+    width: 90%;
+}
+/* skills */
+
+.skills{
+    padding: 80px;
+    text-align: center;
+}
+
+.skills p{
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+
+.skills-row img{
+    max-width: 300px;
+    padding:10px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+/* portfolio */
+
+.portfolio {
+    padding: 80px;
+    text-align: center;
+}
+
+.portfolio p{
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+
+.portfolio-row img{
+    max-width: 900px;
+    padding:10px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+/* Aboutme */
+.Aboutme{
+    padding: 80px 0;
+    text-align: center;
+}
+
+.Aboutme h2{
+    padding-bottom: 50px;
+}
+
+.aboutme p{
+    padding-bottom: 20px;
+}
+
+/* Contact */
+
+.contact{
+    padding: 80px 0;
+}
+
+.contact h2{
+    text-align: center;
+}
+
+.contact p{
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.contact-row{
+    display: flex;
+    padding: 20px;
+}
+
+.contact-row-img {
+    width: 50%;
+}
+
+.contact-row-img img{
+    padding: 100px;
+}
+
+.contact-row-form {
+    width: 50%;
+    border: 1px solid #c4c4c4;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+.contact-row-form h4{
+    padding-bottom: 20px;
+    text-align: center;
+}
+.contact-row-form button{
+    width: 100%;
+}
+
+/* footer */
+.mainfooter{
+    text-align: center;
+    padding: 20px;
+}

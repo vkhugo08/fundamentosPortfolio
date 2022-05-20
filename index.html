@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f5a0e1a053.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/Css/style.css">
+    <link rel="stylesheet" href="/assets/Css/mobile.css">
+    <link rel="stylesheet" href="/assets/Css/media.css">
+    <script src="https://kit.fontawesome.com/cd487b186a.js" crossorigin="anonymous"></script>
+    <title> My Portafolio | Welcome </title>
+</head>
+<body>
+    <header class="mainheader" id="mainheader">
+    <div class="container_navbar"> 
+        <div class="icon_right">
+            <span onclick="toggleMenu()" class="icon_menu">
+            <i class="fa-solid fa-bars"></i>
+            </span>
+        </div>  
+        <nav class="navbar" id="main_menu">
+        <div class="container_menu">
+            <h2 class="logo">My Portafolio</h2>
+            <ul>
+                <li><a href="#mainheader">Home</a></li>
+                <li><a href="#aboutme">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+             </ul>
+        </div>
+        </nav>
+    </div> 
+    </header> 
+        <div class="wraper" id="wraper">
+            <div class="container" id="wraper_container">
+                <div class="wraper-row">
+                    <div class="wraper-row-title">
+                        <p>Desarrolador, Diseñador , Creador de productos</p>
+                        <h1 class="display-1"><span class="txt-aqua">Web Developer Full Stack</span></h1>
+                        <p class="large">Hay sólo dos clases de lenguajes de programación: </br>aquellos de los que la gente está siempre quejándose y aquellos que nadie usa.</p>
+                        
+                        </div>
+                        <div class="wraper-row-img1">
+                        <img src="/assets/img/img-removebg-preview 2.png" alt="imagen">
+                        </div>
+                    <div class="container_a">
+
+                        <div class="icons">
+                            <span><i class="fa-brands fa-facebook"></i></span>
+                            <span><i class="fa-brands fa-instagram"></i></span>
+                            <span><i class="fa-brands fa-twitter-square"></i></span>
+                        </div>
+                        <div class="boton">
+                            <a href="#contact" class="btn btn-round btn-dark">Contact Me</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    
+        <script src="./js/menu.js"></script>
+
+    <section class="skills" id="skills">
+        
+            <h2>Skills</h2>
+            <p>Habilidades aprendidas en la academia bootcamp Academlo, las que me permiten llevar a la realidad cualquier producto que tengas en mente!</p>
+            <div class="container">
+            <div class="skills-row">
+                <a href=""><img src="assets/img/html.png" alt=""></a>
+                <a href=""><img src="assets/img/css.png" alt=""></a>
+                <a href=""><img src="assets/img/react.png" alt=""></a>
+            </div>
+        </div>
+
+
+    </section>
+    <section class="portfolio" id="portfolio">
+        
+        <h2>My Portfolio</h2>
+        <p>Aqui encontraras una vista a mi proyectos personales los cuales hablaran por mi y mis capacidades espero que sean de tu agrado!</p>
+        <div class="container">
+        <div class="portfolio-row">
+            <img src="assets/img/Rectangle 1.jpg" alt="">
+            <img src="assets/img/Rectangle 2.jpg" alt="">
+            <img src="assets/img/Rectangle 3.jpg" alt="">
+        </div>
+    </div>
+
+
+</section>
+
+    <section class="Aboutme" id="aboutme">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                Nacido en Venezuela tengo 29 años, empece aprendiendo programacion por mis propios medios, pero reafirme y especialize en Academlo.
+                Soy una persona que me considero un soñador y emprendedor, siempre con mente positiva que a pesar de las adversidades cree que siempre
+                hay una luz al final del tunel y creo que eso me ha ayudado a estar donde estoy.
+            </p>
+            <p>
+                Soy una persona sociable, hago amigos muy rapido , me gusta trabajar en equipo y creo que soy un lider nato sin notarlo.
+                se me da facil ver los talentos de las personas en mi entorno y creo que eso me hace saber en que parte del trabajo
+                cada miembro del equipo se sentiria mas comodo.
+            </p>
+        </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>
+                Puedes escribirme un correo en el siguiente panel!
+            </p>
+            <div class="contact-row">
+                <div class="contact-row-img">
+                    <img src="/assets/img/correo.png" alt="">
+                </div>
+                <div class="contact-row-form">
+                    <h4>Get in Touch!</h4>
+                    <form action="">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="" cols="30" rows="10" class="form-control"></textarea>
+                        </div>
+                        <button class="btn btn-dark"> Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="mainfooter" id="mainfooter">
+     Hecho con Amor por Victor Hugo Medrano En Academlo.🤍
+    </footer>
+
+</body>
+</html>
